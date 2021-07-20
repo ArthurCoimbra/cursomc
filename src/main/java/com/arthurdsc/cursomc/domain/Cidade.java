@@ -55,7 +55,7 @@ public class Cidade implements Serializable{
 	public void setEstado(Estado estado) {
 		this.estado = estado;
 	}
-
+	
 	@Override
 	public int hashCode() {
 		final int prime = 31;
@@ -80,5 +80,5 @@ public class Cidade implements Serializable{
 			return false;
 		return true;
 	}
-	
+
 }
