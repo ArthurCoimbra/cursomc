@@ -9,4 +9,6 @@ import com.arthurdsc.cursomc.domain.Pedido;
 @Repository
 public interface PedidoRepository extends JpaRepository<Pedido, Long>{
 	
+	Pedido findPedidoById(Long id);
+	
 }
