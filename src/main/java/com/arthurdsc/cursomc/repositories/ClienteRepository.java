@@ -9,4 +9,6 @@ import com.arthurdsc.cursomc.domain.Cliente;
 @Repository
 public interface ClienteRepository extends JpaRepository<Cliente, Long>{
 	
+	Cliente findClienteById(Long id);
+	
 }
